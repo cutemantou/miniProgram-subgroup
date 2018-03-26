@@ -1,0 +1,9 @@
+<!--pages/switch/switch.wxml-->
+<view class='containerbox'>
+    <text>switch(开关)</text>
+    <view class="body-view">
+       <switch checked bindchange="switch1Change"/>
+       <switch bindchange="switch2Change"/>
+    </view>
+</view>
+

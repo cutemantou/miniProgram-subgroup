@@ -1,0 +1,15 @@
+<!--pages/button/button.wxml-->
+<view class='containerbox'>
+  <text>button(按钮)</text>
+  <button style="margin-bottom:1rem;" type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> default </button>
+  <button style="margin-bottom:1rem;" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+          disabled="{{disabled}}" bindtap="primary"> primary </button>
+  <button style="margin-bottom:1rem;"type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+          disabled="{{disabled}}" bindtap="warn"> warn </button>
+  <button style="margin-bottom:1rem;" bindtap="setDisabled">点击设置以上按钮disabled属性</button>
+  <button style="margin-bottom:1rem;" bindtap="setPlain">点击设置以上按钮plain属性</button>
+  <button style="margin-bottom:1rem;" bindtap="setLoading">点击设置以上按钮loading属性</button>
+  <button style="margin-bottom:1rem;" open-type="contact">进入客服会话</button>
+</view>
+

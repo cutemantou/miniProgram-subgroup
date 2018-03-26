@@ -1,0 +1,4 @@
+/* pages/text/text.wxss */
+.containerbox{
+  padding:1rem;
+}

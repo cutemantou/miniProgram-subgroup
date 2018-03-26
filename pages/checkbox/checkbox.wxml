@@ -1,0 +1,10 @@
+<!--pages/checkbox/checkbox.wxml-->
+<view class='containerbox'>
+   <text>checkbox(复选框)</text>
+   <checkbox-group bindchange="checkboxChange" style="margin-top:1rem;">
+    <label class="checkbox" wx:for="{{items}}" style='display:block;marign-bottom:1rem;'>
+      <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+  </checkbox-group>
+</view>
+

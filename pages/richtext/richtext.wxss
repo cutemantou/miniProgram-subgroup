@@ -1,0 +1,4 @@
+/* pages/richtext/richtext.wxss */
+.containerbox{
+  padding:1rem;
+}

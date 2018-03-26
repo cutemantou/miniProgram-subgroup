@@ -1,0 +1,7 @@
+/* pages/textarea/textarea.wxss */
+.containerbox{
+  padding:1rem;
+}
+.section{
+  margin-top:1rem;
+}

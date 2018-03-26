@@ -1,0 +1,4 @@
+/* pages/icon/icon.wxss */
+.containerbox{
+  padding:1rem;
+}

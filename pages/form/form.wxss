@@ -1,0 +1,4 @@
+/* pages/form/form.wxss */
+.containerbox{
+  padding:1rem;
+}

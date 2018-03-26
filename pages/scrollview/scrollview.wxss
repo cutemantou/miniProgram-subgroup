@@ -1,0 +1,16 @@
+/* pages/scrollview/scrollview.wxss */
+.containerbox{padding:1rem;}
+.scroll-view-item{height:80px;}
+.bc_green{background:green;}
+.bc_red{background:red;}
+.bc_blue{background:blue;}
+.bc_yellow{background:yellow;}
+.scroll-view_H{
+  width: 100%;
+  white-space: nowrap;
+}
+.scroll-view-item_H{
+  width: 15rem;
+  height: 10rem;
+  display: inline-block;
+}

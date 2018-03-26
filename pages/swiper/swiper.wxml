@@ -1,0 +1,21 @@
+<view class="containerbox">
+  <text>组件-swiper：滑块视图容器</text>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" previous-margin="20px" next-margin="20px" display-multiple-items="1">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item >
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <button bindtap="changeIndicatorDots"> indicator-dots </button>
+  <button bindtap="changeAutoplay"> autoplay </button>
+  <slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
+  <slider bindchange="durationChange" show-value min="1000" max="10000"/> duration
+  <view class='tipbox' style='font-size:0.8rem;color:#666;margin-top:1rem;'>
+      <view class='title'>Bug & Tip</view>
+      <view class='content'>
+           <text>tip: 如果在 bindchange 的事件回调函数中使用 setData 改变 current 值，则有可能导致 setData 被不停地调用，因而通常情况下请在改变 current 值前检测 source 字段来判断是否是由于用户触摸引起。</text>
+      </view>
+  </view>
+</view>
+

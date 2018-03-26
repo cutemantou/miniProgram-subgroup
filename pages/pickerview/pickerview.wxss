@@ -1,0 +1,7 @@
+/* pages/pickerview/pickerview.wxss */
+.containerbox{
+  padding:1rem;
+}
+.section{
+  margin-top:1rem;
+}

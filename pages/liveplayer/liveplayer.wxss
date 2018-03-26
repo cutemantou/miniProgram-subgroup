@@ -1,0 +1,4 @@
+/* pages/liveplayer/liveplayer.wxss */
+.containerbox{
+  padding:1rem
+  }

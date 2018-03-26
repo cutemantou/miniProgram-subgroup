@@ -1,0 +1,5 @@
+<!--pages/richtext/richtext.wxml-->
+<view class='containerbox'>
+   <text>richtext(富文本)</text>
+   <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+</view>

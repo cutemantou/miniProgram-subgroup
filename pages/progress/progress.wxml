@@ -1,0 +1,9 @@
+<!--pages/progress/progress.wxml-->
+<view class='containerbox'>
+    <text>progress</text>
+    <progress percent="20" show-info />
+    <progress percent="40" stroke-width="12"  style='margin-top:1rem;'/>
+    <progress percent="60" color="pink" style='margin-top:1rem;'/>
+    <progress percent="80" active style='margin-top:1rem;'/>
+</view>
+

@@ -1,0 +1,20 @@
+/* pages/view/view.wxss */
+.containerbox{
+  padding:1rem;
+}
+.container{
+  width: 100%;
+  display: flex; /*or inline-flex*/
+  flex-flow:row wrap;     /*横向布局,多行显示*/
+  justify-content:flex-start;/*主轴起点对齐(默认值)*/
+}
+.container1{
+  flex-flow:column wrap;   
+}
+.item{
+  flex:0 0 30%;
+  color:#fff;
+}
+.item1{background-color:green;}
+.item2{background-color:blue;}
+.item3{background-color:red;}

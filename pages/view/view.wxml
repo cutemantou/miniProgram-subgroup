@@ -1,0 +1,21 @@
+<view class="containerbox">
+  <text>组件-view：视图容器</text>
+  <view class="container">
+      <view class="item1">item1</view>
+      <view class="item2">item2</view>
+      <view class="item3">item3</view>
+  </view>
+  <view class="container container1">
+      <view class="item1">item1</view>
+      <view class="item2">item2</view>
+      <view class="item3">item3</view>
+  </view>
+  <view class='tipbox' style='font-size:0.8rem;color:#666;'>
+      <view class='title'>Bug & Tip</view>
+      <view class='content'>
+           <text>tip: 如果需要使用滚动视图，请使用 scroll-view</text>
+      </view>
+  </view>
+  
+</view>
+

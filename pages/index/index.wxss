@@ -1,0 +1,4 @@
+/* pages/subgroup/subgroup.wxss */
+.containerbox{
+  padding:1rem;
+}

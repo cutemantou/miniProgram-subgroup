@@ -1,0 +1,4 @@
+/* pages/video/video.wxss */
+.containerbox{
+  padding:1rem;
+}

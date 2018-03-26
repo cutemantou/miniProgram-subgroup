@@ -1,0 +1,7 @@
+/* pages/input/input.wxss */
+.containerbox{
+  padding:1rem;
+}
+.containerbox .section{
+  margin-top:1rem;
+}
