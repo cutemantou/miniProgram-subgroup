@@ -1,0 +1,6 @@
+<!--pages/apirecord/apirecord.wxml-->
+<view class='containerbox'>
+   <text>record</text>
+   <button style="margin-bottom:1rem;" bindtap="record">录音按钮</button>
+</view>
+

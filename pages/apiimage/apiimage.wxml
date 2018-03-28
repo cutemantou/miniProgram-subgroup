@@ -1,0 +1,12 @@
+<!--pages/apiimage/apiimage.wxml-->
+<view class='containerbox'>
+  <text>apiimage</text>
+  <button style="margin-bottom:1rem;" bindtap="choseImage">选择图片</button>
+  <span style="font-family:'Comic Sans MS';font-size:18px;color:#333333;">
+    <view class="container">  
+    <view wx:for="{{imgalist}}" wx:for-item="image" class="previewimg">  
+        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>  
+    </view>  
+    </view>
+    </span> 
+</view>

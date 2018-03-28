@@ -1,0 +1,7 @@
+/* pages/apiimage/apiimage.wxss */
+.containerbox{
+  padding:1rem;
+}
+.containerbox button{
+   font-size:1rem;
+}

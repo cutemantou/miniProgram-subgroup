@@ -1,0 +1,4 @@
+/* pages/api/api.wxss */
+.containerbox{
+  padding:1rem;
+}

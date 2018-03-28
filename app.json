@@ -30,12 +30,27 @@
     "pages/radio/radio",
     "pages/slide/slide",
     "pages/switch/switch",
-    "pages/textarea/textarea"
+    "pages/textarea/textarea",
+    "pages/api/api",
+    "pages/apiimage/apiimage",
+    "pages/apirecord/apirecord"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/api/api",
+        "text": "api"
+      }
+    ]
   }
 }

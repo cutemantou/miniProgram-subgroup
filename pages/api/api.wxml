@@ -1,0 +1,11 @@
+<!--pages/api/api.wxml-->
+<view class='containerbox'>
+  <text style='font-weight:bold;display:block;'>网络</text>
+  <text style='display:block;'>1.发起请求</text>
+  <text style='display:block;'>2.上传、下载</text>
+  <text style='display:block;'>3.websocket</text>
+  <text style='margin-top:1rem;display:block;font-weight:bold'>媒体</text>
+  <navigator url="../apiimage/apiimage">1.apiimage（图片）</navigator>
+  <navigator url="../apirecord/apirecord">2.apirecord（录音）</navigator>
+</view>
+
