@@ -33,7 +33,8 @@
     "pages/textarea/textarea",
     "pages/api/api",
     "pages/apiimage/apiimage",
-    "pages/apirecord/apirecord"
+    "pages/apirecord/apirecord",
+    "pages/apilocation/apilocation"
   ],
   "window": {
     "backgroundTextStyle": "light",

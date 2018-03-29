@@ -7,5 +7,7 @@
   <text style='margin-top:1rem;display:block;font-weight:bold'>媒体</text>
   <navigator url="../apiimage/apiimage">1.apiimage（图片）</navigator>
   <navigator url="../apirecord/apirecord">2.apirecord（录音）</navigator>
+  <text style='margin-top:1rem;display:block;font-weight:bold'>位置</text>
+  <navigator url="../apilocation/apilocation">1.apilocation（位置）</navigator>
 </view>
 
