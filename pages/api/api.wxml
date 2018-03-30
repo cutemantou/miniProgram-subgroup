@@ -9,5 +9,16 @@
   <navigator url="../apirecord/apirecord">2.apirecord（录音）</navigator>
   <text style='margin-top:1rem;display:block;font-weight:bold'>位置</text>
   <navigator url="../apilocation/apilocation">1.apilocation（位置）</navigator>
+  <text style='margin-top:1rem;display:block;font-weight:bold'>设备</text>
+  <navigator url="../system/system">1.system（系统信息）</navigator>
+  <navigator url="../networkstatus/networkstatus">2.networkstatus（网络状态）</navigator>
+  <navigator url="../makephone/makephone">3.makephone（拨打电话）</navigator>
+  <navigator url="../scancode/scancode">4.scancode（扫码----）</navigator>
+  <navigator url="../phonecontact/phonecontact">5.phonecontact（手机联系人）</navigator>
+  <navigator url="../vibrate/vibrate">6.vibrate（振动）</navigator>
+  <navigator url="../screenbright/screenbright">7.screenbright（屏幕亮度）</navigator>
+  <navigator url="../capturescreen/capturescreen">8.capturescreen（用户截屏----）</navigator>
+  <navigator url="../clipboard/clipboard">9.clipboard（剪贴板----）</navigator>
+  <navigator url="../accelerometer/accelerometer">10.accelerometer（加速度计----）</navigator>
 </view>
 

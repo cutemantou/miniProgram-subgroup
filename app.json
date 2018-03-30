@@ -34,7 +34,17 @@
     "pages/api/api",
     "pages/apiimage/apiimage",
     "pages/apirecord/apirecord",
-    "pages/apilocation/apilocation"
+    "pages/apilocation/apilocation",
+    "pages/system/system",
+    "pages/networkstatus/networkstatus",
+    "pages/makephone/makephone",
+    "pages/scancode/scancode",
+    "pages/phonecontact/phonecontact",
+    "pages/vibrate/vibrate",
+    "pages/screenbright/screenbright",
+    "pages/capturescreen/capturescreen",
+    "pages/clipboard/clipboard",
+    "pages/accelerometer/accelerometer"
   ],
   "window": {
     "backgroundTextStyle": "light",
